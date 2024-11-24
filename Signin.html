@@ -1,0 +1,122 @@
+<html>
+ <head>
+  <title>
+   Login and Signup Page
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+        }
+        .left, .right {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .left {
+            background-color: #fff;
+            color: #000;
+        }
+        .right {
+            background-color: #000;
+            color: #fff;
+            border-top-left-radius: 50px;
+            border-bottom-left-radius: 50px;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .input-container {
+            width: 80%;
+            margin-bottom: 15px;
+        }
+        .input-container input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .forgot-password {
+            font-size: 12px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .button {
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .button.signin {
+            background-color: #000;
+            color: #fff;
+        }
+        .button.signup {
+            background-color: transparent;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="left">
+    <img alt="Logo" class="logo" height="100" src="https://storage.googleapis.com/a1aa/image/ZBUDyWrenp3RHauiBnMAet9uFeFqLSmyj0I8fiyISALaxCedC.jpg" width="100"/>
+    <div class="title">
+     Welcome Back !!
+    </div>
+    <div class="subtitle">
+     Please enter your credentials to log in
+    </div>
+    <div class="input-container">
+     <input placeholder="Username" type="text"/>
+    </div>
+    <div class="input-container">
+     <input placeholder="Password" type="password"/>
+    </div>
+    <div class="forgot-password">
+     Forgot password?
+    </div>
+    <button class="button signin">
+     SIGN IN
+    </button>
+   </div>
+   <div class="right">
+    <img alt="Logo" class="logo" height="100" src="https://storage.googleapis.com/a1aa/image/ZBUDyWrenp3RHauiBnMAet9uFeFqLSmyj0I8fiyISALaxCedC.jpg" width="100"/>
+    <div class="title">
+     TechBook
+    </div>
+    <div class="subtitle">
+     LIBRARY
+    </div>
+    <div class="subtitle">
+     New to our platform? Sign Up now.
+    </div>
+    <button class="button signup">
+     SIGN UP
+    </button>
+   </div>
+  </div>
+ </body>
+</html>
